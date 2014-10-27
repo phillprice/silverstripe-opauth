@@ -42,7 +42,7 @@ Config::inst()->update('OpauthAuthenticator', 'opauth_strategy_config', array(
 	'FacebookStrategy' => array(
 		'app_id' => 'YOUR APP ID',
 		'app_secret' => 'YOUR APP SECRET'
-		'scope' => 'optional, comma, seperated, string'
+		'scope' => 'optional, comma, separated, string'
 	)
 ));
 ```
